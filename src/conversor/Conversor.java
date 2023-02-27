@@ -4,6 +4,8 @@
  */
 package conversor;
 
+import igu.ConversorIgu;
+
 
 
 /**
@@ -16,7 +18,9 @@ public class Conversor {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
+        ConversorIgu princ = new ConversorIgu();
+        princ.setVisible(true);
+        princ.setLocationRelativeTo(null);
     }
     
 }
